@@ -88,8 +88,8 @@
                             <option value="9" class="opt">9</option>
                             <option value="10" class="opt">10</option>
                         </select>
-                        <label for="direcao_id">Direção</label>
-                        <select name="direcao" id="direcao_id" required class="opt2">
+                        <label for="direcao_arte_id">Direção de Arte</label>
+                        <select name="direcao_arte" id="direcao_arte_id" required class="opt2">
                             <option value="" class="opt" disabled selected>Selecione uma nota</option>
                             <option value="0" class="opt">0</option>
                             <option value="1" class="opt">1</option>
@@ -105,8 +105,8 @@
                         </select>
                     </div>
                     <div id="selects_2">
-                        <label for="direcao_arte_id">Direção de Arte</label>
-                        <select name="direcao_arte" id="direcao_arte_id" required class="opt2">
+                        <label for="direcao_id">Direção</label>
+                        <select name="direcao" id="direcao_id" required class="opt2">
                             <option value="" class="opt" disabled selected>Selecione uma nota</option>
                             <option value="0" class="opt">0</option>
                             <option value="1" class="opt">1</option>
@@ -165,8 +165,8 @@
                             <option value="9" class="opt">9</option>
                             <option value="10" class="opt">10</option>
                         </select>
-                        <label for="roteiro_id">Roteiro</label>
-                        <select name="roteiro" id="roteiro_id" required class="opt2">
+                        <label for="cgi_id">CGI</label>
+                        <select name="cgi" id="cgi_id" required class="opt2">
                             <option value="" class="opt" disabled selected>Selecione uma nota</option>
                             <option value="0" class="opt">0</option>
                             <option value="1" class="opt">1</option>
@@ -185,7 +185,7 @@
             </section>
             <hr>
             <section id="resultados">
-                <button id="calcular_media">Calcular Média</button>
+                <button id="calcular_media" onclick="calcular_media()">Calcular Média</button>
                 <div id="display_pontuacao">
                     <p>Pontuação:</p>
                 </div>
@@ -195,8 +195,8 @@
     </main>
     <footer>
         <p>Ernesto Rampanelli Neto - Todos os direitos reservados ©</p>
-
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
