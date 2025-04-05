@@ -25,7 +25,7 @@
             <hr>
             <section id="selects_container">
                 <label for="nome_filme_id">Nome do Filme</label>
-                <input type="text" name="nome_filme" id="nome_filme_id" class="opt2" placeholder="Insira o filme aqui">
+                <input type="text" name="nome_filme" id="nome_filme_id" class="opt2" placeholder="Insira o filme aqui" autocomplete="off">
                 <section id="selects_container2">
                     <div id="selects_1">
                         <label for="roteiro_id">Roteiro</label>
@@ -187,7 +187,7 @@
             <section id="resultados">
                 <button id="calcular_media" onclick="calcular_media()">Calcular Média</button>
                 <div id="display_pontuacao">
-                    <p>Pontuação:</p>
+                    <p><span id="span1">Filme:</span><br>Nota:</p>
                 </div>
 
             </section>

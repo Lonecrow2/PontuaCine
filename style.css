@@ -144,10 +144,42 @@ footer{
 #display_pontuacao{
     border-radius: 10px;
     padding: 5px;
-    height: 50px;
+    overflow: hidden;
+    height: 64px;
     width: 300px;
-    font-size: 25px;
     color: #ffcdcd;
     background-image: linear-gradient(45deg,#bd0000b0,#8d0f0fb4, #bd00008f);
     border: 1px solid #ff0000;
+}
+
+::-webkit-scrollbar {
+    height: 8px; 
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3d0101; /* Cor do fundo do trilho */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #960000; /* Cor da "pegada" (thumb) */
+    border-radius: 6px; /* Bordas arredondadas */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #dd0000; /* Cor ao passar o mouse */
+}
+
+
+#display_pontuacao > p{
+    overflow-x: auto;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: #ffee00;
+}
+
+#span1{
+    font-size: 15px;
+    color: #ffcdcd;;
 }
