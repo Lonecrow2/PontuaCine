@@ -1,5 +1,3 @@
-
-
 function calcular_media() {
     let selects = document.querySelectorAll('#selects_container2 select'); // Captura todos os selects
     let soma = 0; // Inicializa a soma
