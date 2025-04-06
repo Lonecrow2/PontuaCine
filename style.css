@@ -161,6 +161,15 @@ footer {
     border: 1px solid #f4b41a;
 }
 
+#display_pontuacao > p {
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: #f4b41a;
+}
+
 ::-webkit-scrollbar {
     height: 8px;
     width: 10px;
@@ -177,14 +186,6 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #d99a15;
-}
-
-#display_pontuacao > p {
-    overflow-x: auto;
-    font-size: 25px;
-    margin: 0px;
-    padding: 0px;
-    color: #f4b41a;
 }
 
 #span1 {
