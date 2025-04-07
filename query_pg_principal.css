@@ -1,6 +1,12 @@
 @charset "UTF8";
 
 @media (max-width: 560px){
+    body{
+        background-image: url(imagens/background_cell.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
     #container_pai{
         width: 95%;
     }
