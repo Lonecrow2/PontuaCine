@@ -11,7 +11,12 @@
 </head>
 <body>
     <header>
-        <img src="imagens/pontuaCine.png" alt="imagem de logo">
+        <picture>
+            <source media="(max-width: 400px)" srcset="imagens/pontuaCine_cell.png" type="image/png">
+            <source media="(max-width: 1300px)" srcset="imagens/pontuaCine_Media.png" type="image/png">
+            <img src="imagens/pontuaCine.png" alt="imagem de logo">
+        </picture>
+        
     </header>
     <main>
         <h1>Pontue seus filmes favoritos</h1>
