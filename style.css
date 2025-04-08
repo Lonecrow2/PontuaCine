@@ -110,7 +110,7 @@ footer {
 
 #selects_1, #selects_2 {
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: nowrap column;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
