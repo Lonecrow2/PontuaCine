@@ -68,3 +68,7 @@ function visualizar_pequeno(){
 }
 }
 
+function fechar(){
+    let mod1 = document.getElementById('Modal')
+    mod1.style.display = "none"  
+}
