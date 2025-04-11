@@ -18,10 +18,18 @@
         </picture>
         
     </header>
+    <div id="Modal">
+        <div id="filme_modal"></div>
+        <div id="modal_filho">
+            <div id="categoria"></div>
+            <div id="nota"><p>Adicione algum valor nas caixas e clique em calcular para obter resultado</p></div>
+        </div>
+        <div id="nota_modal"></div>
+    </div>
     <main>
         <h1>Pontue seus filmes favoritos</h1>
         <p>Preencha as caixas com suas notas para cada categoria. No final, clique em 'Calcular Média' para 
-             gerar uma única nota geral da obra com base nas suas avaliações.</p> 
+             gerar uma única nota geral da obra com base nas suas avaliações. Clique em 'Print' para gerar uma versão menor para melhor captura com Prints de tela.</p> 
         <section id="container_pai">    
             <section>
                 <h1>Avaliação de Filme</h1>
@@ -191,6 +199,7 @@
             <hr>
             <section id="resultados">
                 <button id="calcular_media" onclick="calcular_media()">Calcular</button>
+                <button id="teste" onclick="visualizar_pequeno()">Print</button>
                 <div id="display_pontuacao">
                     <p><span id="span1">Filme:</span><br>Nota:</p>
                 </div>
