@@ -1,146 +1,156 @@
 @charset "UTF8";
 
-@media (min-width: 1920px){
+@media (min-width: 1920px) {
 
-    header > picture > img {
+    header>picture>img {
         width: 30%;
     }
 
-    h1{
+    h1 {
         font-size: 2vw;
     }
 
-    p{
+    p {
         font-size: 1.5vw;
     }
 
-    main > h1{
+    main>h1 {
         font-size: 2.5vw;
     }
 
-    button{
+    button {
         border-radius: 8px;
         font-size: 24px;
         height: 45px;
     }
-    label{
+
+    label {
         font-size: 1.2vw;
     }
 
-    #display_pontuacao{
+    #display_pontuacao {
         height: 11vh;
         width: 18vw;
     }
-    
-    #display_pontuacao > p{
+
+    #display_pontuacao>p {
         font-size: 2vw;
     }
-    #span1{
+
+    #span1 {
         font-size: 1.2vw;
     }
 
-    #selects_container > input {
+    #selects_container>input {
         width: 50%;
         font-size: 1.5vw;
         height: 40px;
     }
-    #selects_container2{
+
+    #selects_container2 {
         width: 90%;
         height: 100%;
     }
+
     #container_pai {
         padding: 10px;
         width: 45%;
     }
 
-    #selects_container > label{
+    #selects_container>label {
         font-size: 2.0vw;
     }
 
-    #selects_container{
+    #selects_container {
         height: 55vh;
     }
 
-    .opt2{
+    .opt2 {
         height: 12%;
         border-radius: 8px;
         font-size: 25px;
     }
 }
 
-@media (min-width: 1440px)
-and (max-width: 1919px){
+@media (min-width: 1440px) and (max-width: 1919px) {
 
-    header > picture > img {
+    header>picture>img {
         width: 450px;
     }
 
-    h1{
+    h1 {
         font-size: 40px;
     }
 
-    p{
+    p {
         font-size: 25px;
     }
 
-    main > h1{
+    main>h1 {
         font-size: 55px;
     }
 
-    button{
+    button {
         border-radius: 8px;
         font-size: 24px;
         height: 45px;
     }
-    label{
+
+    label {
         font-size: 25px;
     }
 
-    #display_pontuacao{
+    #display_pontuacao {
         height: 80px;
     }
-    #display_pontuacao > p{
+
+    #display_pontuacao>p {
         font-size: 35px;
     }
-    #span1{
+
+    #span1 {
         font-size: 25px;
     }
 
-    #selects_container > input {
+    #selects_container>input {
         width: 50%;
         margin: auto;
         font-size: 30px;
         height: 40px;
     }
+
     #container_pai {
         padding: 10px;
         width: 700px;
     }
-    .opt2{
+
+    .opt2 {
         height: 50px;
         border-radius: 8px;
         font-size: 25px;
     }
 }
 
-@media (max-width: 560px){
-    body{
+@media (max-width: 560px) {
+    body {
         background-image: url(imagens/background_cell.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
-    
-    #container_pai{
+
+    #container_pai {
         width: 95%;
     }
-    .opt{
-        width: 100%;
-    }
-    .opt2{
+
+    .opt {
         width: 100%;
     }
 
-    #selects_container2{
+    .opt2 {
+        width: 100%;
+    }
+
+    #selects_container2 {
         width: 100%;
     }
 }
