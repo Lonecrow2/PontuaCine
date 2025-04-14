@@ -40,14 +40,19 @@ function calcular_media() {
     let selects_modal = document.querySelectorAll('#selects_container2 select'); // Captura todos os selects
     let valores_modal = []; // Inicializa a soma
     selects_modal.forEach(select => { // Itera sobre cada select
-        valores_modal.push(Number(select.value)); // Converte o valor para número
-    })
+        let valor_modal = select.value; // Captura o valor como string
+        if (valor_modal !== "") { // Verifica se o valor não está vazio
+            valores_modal.push(Number(valor_modal)); // Adiciona como número válido
+        } else {
+            valores_modal.push(null); // Adiciona `null` para representar "não selecionado"
+        }
+    });
 
     valores_label.forEach(valor_label => {
         cate_display.innerHTML += `<p>${valor_label}</p>`; // Adiciona cada valor em um novo parágrafo
     });
     valores_modal.forEach(valor_modal => {
-        if (valor_modal !== 0) {
+        if (valor_modal !==null) {
             nota_display.innerHTML += `<p>${valor_modal}</p>`;
         }
         else {
