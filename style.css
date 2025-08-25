@@ -134,6 +134,7 @@ footer {
     display: flex;
     flex-flow: nowrap column;
     margin: 20px;
+    justify-content: space-around;
 }
 
 #nota_modal>h2 {
